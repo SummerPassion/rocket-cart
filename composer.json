@@ -5,7 +5,14 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "rocket\\": "src/"
+            "rocket_cart\\": "src/"
+        }
+    },
+    "extra": {
+        "think":{
+            "config":{
+                "cart": "src/config.php"
+            }
         }
     },
     "authors": [
